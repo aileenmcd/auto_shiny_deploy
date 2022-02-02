@@ -1,0 +1,11 @@
+name: tech_stack_test_main
+title: shinyapplication
+username:
+account: aileen-mcd
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5565803
+bundleId: 5535438
+url: https://aileen-mcd.shinyapps.io/tech_stack_test_main/
+when: 1643819171.76569
+lastSyncTime: 1643819171.76571
