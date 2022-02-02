@@ -23,6 +23,7 @@ flood_counts <- floods |>
   group_by(severity_level) |>
   summarise(count = n()) |>
   mutate(time_code_run = Sys.time())
-  
+
+# To investigate relative filepaths in Rprojectsfor cron jobs
 flood_counts |>
   saveRDS("~/analysis_work/testing/techstacktest/data_output/flood_counts.rds")
