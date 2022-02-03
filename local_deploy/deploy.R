@@ -7,7 +7,6 @@ setAccountInfo(name = Sys.getenv("SHINY_ACC_NAME"),
 # Initial deployment setting name 
 deployApp(
   appFiles = c("app.R", "data_output"),
-  appName = Sys.getenv("MAINNAME"),
+  appName = 'tech_stack_test_main',
   account = Sys.getenv("SHINY_ACC_NAME"),
   appTitle = "shinyapplication")
-

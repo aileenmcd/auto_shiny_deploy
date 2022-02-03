@@ -1,6 +1,8 @@
 library(shiny)
+library(googlesheets4)
 
-flood_counts <- readRDS("data_output/flood_counts.rds")
+flood_counts <- read_sheet("1nGq6gK3FLIJ_gTlt1D1gOMFzJ6iellyrWBbwHBdKPMQ")
+
 
 ui <- fluidPage(
   titlePanel("Count of flood warnings"),

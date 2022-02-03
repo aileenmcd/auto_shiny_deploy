@@ -25,5 +25,7 @@ flood_counts <- floods |>
   mutate(time_code_run = Sys.time())
 
 # To investigate relative filepaths in Rprojectsfor cron jobs
+wd <- getwd()
+
 flood_counts |>
-  saveRDS("~/analysis_work/testing/techstacktest/data_output/flood_counts.rds")
+  saveRDS(paste0(wd, "data_output/flood_counts.rds"))

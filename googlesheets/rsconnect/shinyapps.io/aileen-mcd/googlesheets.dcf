@@ -1,0 +1,14 @@
+name: googlesheets
+title: googlesheets
+username:
+account: aileen-mcd
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5569645
+bundleId: 5536945
+url: https://aileen-mcd.shinyapps.io/googlesheets/
+when: 1643844220.48071
+lastSyncTime: 1643844220.48074
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: deploy.R|processing_script.R
