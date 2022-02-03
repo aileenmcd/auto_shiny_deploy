@@ -5,10 +5,10 @@ account: aileen-mcd
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 5569645
-bundleId: 5536945
+bundleId: 5539133
 url: https://aileen-mcd.shinyapps.io/googlesheets/
-when: 1643844220.48071
-lastSyncTime: 1643844220.48074
+when: 1643901192.23391
+lastSyncTime: 1643901192.23394
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: deploy.R|processing_script.R
+ignoredFiles: cron/cron_job_file.txt|cron/cron_output_020222.txt|cron/cron_output_030222.txt|deploy.R|processing_script.R

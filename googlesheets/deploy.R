@@ -7,6 +7,8 @@ setAccountInfo(name = Sys.getenv("SHINY_ACC_NAME"),
 # Initial deployment setting name 
 deployApp(
   appFiles = c("googlesheets/app.R"),
-  appName = Sys.getenv("MAINNAME"),
+  appName = 'googlesheets',
   account = Sys.getenv("SHINY_ACC_NAME"),
   appTitle = "shinyapplication")
+
+
